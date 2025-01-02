@@ -18,6 +18,16 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+<distributionManagement>
+    <repository>
+        <id>mynexusRepo</id>
+        <url>http://54.183.138.202:8081/repository/mynexusRepo/</url>
+    </repository>
+    <snapshotRepository>
+        <id>mynexusRepo</id>
+        <url>http://54.183.138.202:8081/repository/mynexusRepo/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
